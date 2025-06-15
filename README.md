@@ -1,21 +1,19 @@
-# 🎓 Student Result Management System
+# 🎓 Student Result Management System 
 
-A simple web application to manage and view student results. Built using Python, Flask, and SQLite, this system allows users to add, view, and delete student marks in a clean web interface.
+This web app allows users to manage and display student results using FastAPI and SQLite. Add student names, subjects, and marks, and view them in a dynamic table.
 
-## ⚙️ Features
-- Add student name, subject, and marks
-- View all records in a table
-- Delete any record with a single click
-- Beautiful and responsive UI
+## 🚀 Features
+- Add student results
+- Display all results in a table
+- Minimal and user-friendly interface
 
-## 🛠️ Tech Stack
-- Python, Flask
+## 🛠 Technologies Used
+- FastAPI
 - SQLite
-- HTML/CSS
+- HTML, CSS, Jinja2
 
-## 🚀 Run Locally
+## ▶️ Run It Locally
 ```bash
-git clone https://github.com/yourusername/student-result-system.git
-cd student-result-system
-pip install flask
-python app.py
+pip install -r requirements.txt
+uvicorn main:app --reload
+

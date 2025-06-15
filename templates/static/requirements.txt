@@ -1,2 +1,4 @@
-flask
-sqlite3 ; (already included in Python stdlib, optional here)
+fastapi
+uvicorn
+jinja2
+python-multipart
